@@ -1,0 +1,62 @@
+header {
+    width: 100%;
+    height: auto;
+    
+  
+    nav {
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      background-color: black;
+      border-radius: 0 0 80px 0;
+      .nav__contentName {
+        max-width: 500px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 50%;
+        height: 350px;
+        text-align: center;
+        padding-bottom: 50px;
+  
+        h1 {
+            width: 90%;
+            margin: 0 auto;
+          font-size: 3rem;
+          font-family: "Montserrat";
+          font-weight: 200;
+          color: white;
+        }
+        h2 {
+            width: 90%;
+            margin: 0 auto;
+          font-size: 5rem;
+          font-family: "Montserrat";
+          color: white;
+          border-bottom: solid 5px $color-principal;
+        }
+      }
+  
+      .nav__contentImage {
+        max-width: 500px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 50px;
+        width: 50%;
+        height: 350px;
+  
+        picture {
+          width: 100%;
+  
+          img {
+            width: 80%;
+            max-width: 250px;
+          }
+        }
+      }
+    }
+  }
+  

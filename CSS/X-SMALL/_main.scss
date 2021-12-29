@@ -1,0 +1,149 @@
+main {
+  width: 100%;
+  height: auto;
+  // background-color: $color-principal;
+
+  h3 {
+    width: 100%;
+    height: 150px;
+    padding-top: 35px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Montserrat";
+    color: white;
+  }
+
+  .main__contentPresentation--presentation {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    border-radius: 80px 0px 80px 0px;
+
+    p {
+      width: 90%;
+      max-width: 800px;
+      margin: 0 auto;
+
+      text-align: center;
+      font-size: 2rem;
+      font-family: "Montserrat";
+      line-height: 2.5rem;
+      color: white;
+    }
+  }
+
+  .main__contentLogos {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    background-color: black;
+    border-radius: 80px 0 80px 0px;
+
+    .main__contentLogos--logos {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 80%;
+      max-width: 600px;
+      margin: 0 auto;
+      img {
+        height: 80px;
+        margin: 10px;
+      }
+    }
+  }
+  .main__contentWorks {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    background-color: black;
+    border-radius: 80px 0 80px 0px;
+    .main__contentWorks--works {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 80%;
+      max-width: 600px;
+      margin: 0 auto;
+      a {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin: 15px;
+        text-decoration: none;
+        text-align: center;
+        
+        color: white;
+        font-size: 2rem;
+        font-family: "Montserrat";
+        // background: url("../../Assets/3x/Portada.jpg");
+        // background-attachment: fixed;
+        border: solid 2px white;
+        
+      }
+      a:hover{
+        background-color: white;
+        color: black;
+        
+      }
+    }
+  }
+  .main__contentContact{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: auto;
+    background-color: black;
+    border-radius: 80px 0 80px 0px;
+    .main__contentContact--contact{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 80%;
+      max-width: 600px;
+      margin: 0 auto;
+
+      .facebook {
+        width: 50px;
+        height: 50px;
+        margin: 10px;
+        background-image: url("../../Assets/1x/FB.png");
+        background-size: cover;
+        
+      }
+      .facebook:hover{
+        width: 50px;
+        height: 50px;
+        background-image: url("../../Assets/1x/FB-BLANCO.png");
+        background-size: cover;
+
+      }
+
+      .whatsapp{
+        width: 52px;
+        height: 52px;
+        margin: 10px;
+        background-image: url("../../Assets/1x/WHATSAPP-BLANCO.png");
+        background-size: cover;
+
+      }
+
+      .whatsapp:hover{
+        width: 52px;
+        height: 52px;
+        margin: 10px;
+        background-image: url("../../Assets/1x/WHATSAPP.png");
+        background-size: cover;
+      }
+    }
+  }
+}

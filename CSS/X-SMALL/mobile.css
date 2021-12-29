@@ -1,0 +1,233 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  background: url("../../Assets/3x/image3A17866_Glitch.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: auto;
+}
+header nav {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: black;
+  border-radius: 0 0 80px 0;
+}
+header nav .nav__contentName {
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 50%;
+  height: 350px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+header nav .nav__contentName h1 {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-family: "Montserrat";
+  font-weight: 200;
+  color: white;
+}
+header nav .nav__contentName h2 {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 5rem;
+  font-family: "Montserrat";
+  color: white;
+  border-bottom: solid 5px #7100bd;
+}
+header nav .nav__contentImage {
+  max-width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+  width: 50%;
+  height: 350px;
+}
+header nav .nav__contentImage picture {
+  width: 100%;
+}
+header nav .nav__contentImage picture img {
+  width: 80%;
+  max-width: 250px;
+}
+
+main {
+  width: 100%;
+  height: auto;
+}
+main h3 {
+  width: 100%;
+  height: 150px;
+  padding-top: 35px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 5rem;
+  font-family: "Montserrat";
+  color: white;
+}
+main .main__contentPresentation--presentation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: black;
+  border-radius: 80px 0px 80px 0px;
+}
+main .main__contentPresentation--presentation p {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  line-height: 2.5rem;
+  color: white;
+}
+main .main__contentLogos {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  background-color: black;
+  border-radius: 80px 0 80px 0px;
+}
+main .main__contentLogos .main__contentLogos--logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+main .main__contentLogos .main__contentLogos--logos img {
+  height: 80px;
+  margin: 10px;
+}
+main .main__contentWorks {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  background-color: black;
+  border-radius: 80px 0 80px 0px;
+}
+main .main__contentWorks .main__contentWorks--works {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+main .main__contentWorks .main__contentWorks--works a {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 15px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  border: solid 2px white;
+}
+main .main__contentWorks .main__contentWorks--works a:hover {
+  background-color: white;
+  color: black;
+}
+main .main__contentContact {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  height: auto;
+  background-color: black;
+  border-radius: 80px 0 80px 0px;
+}
+main .main__contentContact .main__contentContact--contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+main .main__contentContact .main__contentContact--contact .facebook {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-image: url("../../Assets/1x/FB.png");
+  background-size: cover;
+}
+main .main__contentContact .main__contentContact--contact .facebook:hover {
+  width: 50px;
+  height: 50px;
+  background-image: url("../../Assets/1x/FB-BLANCO.png");
+  background-size: cover;
+}
+main .main__contentContact .main__contentContact--contact .whatsapp {
+  width: 52px;
+  height: 52px;
+  margin: 10px;
+  background-image: url("../../Assets/1x/WHATSAPP-BLANCO.png");
+  background-size: cover;
+}
+main .main__contentContact .main__contentContact--contact .whatsapp:hover {
+  width: 52px;
+  height: 52px;
+  margin: 10px;
+  background-image: url("../../Assets/1x/WHATSAPP.png");
+  background-size: cover;
+}
